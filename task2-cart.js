@@ -5,7 +5,7 @@ function CalculateCart(Cart) {
         TotalCost += Product.Price * Product.Quantity;
     }
 
-    if (TotalCost >= 100) {
+    if (TotalCost = 100) {
         TotalCost *= 0.9;
     }
 
